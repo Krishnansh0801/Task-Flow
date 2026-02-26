@@ -241,3 +241,17 @@ h1 {
   color: white;
   border-color: transparent;
 }
+
+@media (max-width: 480px) {
+  .add-task-form {
+    flex-direction: column;
+  }
+  
+  .add-task-form button {
+    width: 100%;
+  }
+
+  .status-buttons {
+    flex-wrap: wrap;
+  }
+}
